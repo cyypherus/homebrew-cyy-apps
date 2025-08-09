@@ -1,24 +1,11 @@
 cask "idle-hue" do
   version "0.1.0"
-  sha256 :no_check
+  sha256 "sha256:f7827040610033d5aa7e8f19002ca0bc2f32c75c51e38edb8c3ca780e93b3f7f"
 
-  url "https://github.com/your-username/haven-ui/releases/download/v#{version}/idle-hue-#{version}-universal.dmg"
-  name "Idle Hue"
-  desc "Beautiful color picker GUI application"
-  homepage "https://github.com/your-username/haven-ui"
+  url "https://github.com/cyypherus/cyy-apps/releases/download/#{version}/idle-hue-#{version}-macos-arm64.zip"
+  name "idle-hue"
+  homepage "https://github.com/cyypherus"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
+  app "idle-hue.app"
 
-  app "Idle Hue.app"
-  binary "#{appdir}/Idle Hue.app/Contents/MacOS/idle-hue"
-
-  zap trash: [
-    "~/Library/Preferences/com.idle-hue.plist",
-    "~/Library/Application Support/idle-hue",
-    "~/Library/Caches/idle-hue",
-    "~/Library/Saved Application State/com.idle-hue.savedState",
-  ]
 end
