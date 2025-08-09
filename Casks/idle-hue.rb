@@ -1,5 +1,5 @@
 cask "idle-hue" do
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
     sha256 "047896381059243d87b753f1c6b537ae471f3884e1f69e1bc89ebca2a440a6f1"
