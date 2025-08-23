@@ -1,14 +1,14 @@
 cask "idle-hue" do
-  version "0.2.4"
+  version "0.4.0"
 
   on_arm do
-    sha256 "34c5ee85fee156f43cef3f9b3db790802fa1703ce9d148710d061ee9bdbe238d"
-    url "https://github.com/cyypherus/idle-hue/releases/download/#{version}/idle-hue-macos-arm.zip"
+    sha256 "d8b98152ce789edd7a01273baa324e7480179a58cf8d6e07e157b9da2a1b06a8"
+    url "https://apps.cyypher.com/idle-hue/download/macos-arm/#{version}"
   end
 
   on_intel do
-    sha256 "a4b842e4e0803dc8c784d8ddaf52de512394bd527275cc3d947af0e8f024c78a"
-    url "https://github.com/cyypherus/idle-hue/releases/download/#{version}/idle-hue-macos-intel.zip"
+    sha256 "f45f9faccb6057b10d4e210ab576a7e73868bf2357906cb204bd7a5e857e5f33"
+    url "https://apps.cyypher.com/idle-hue/download/macos-intel/#{version}"
   end
   name "idle-hue"
   homepage "https://github.com/cyypherus"
