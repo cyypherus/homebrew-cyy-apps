@@ -1,13 +1,13 @@
 cask "idle-hue" do
-  version "0.4.4"
+  version "0.4.5"
 
   on_arm do
-    sha256 "265f4e19c75dbc3b7b01feeaa3b73a6010e291b0048de8f4380eedfb25fa0851"
+    sha256 "34e6beae498c14789c2b7bd66c99d72914481b87ea3621e54a96e0f423cdb7d3"
     url "https://apps.cyypher.com/idle-hue/download/macos-arm/#{version}"
   end
 
   on_intel do
-    sha256 "8e50ded5331c14cc11ecbd9e69c104471ff9d42027a9b7ed0bef11913e1a5e75"
+    sha256 "d459b785be8986fd629df08df406106b5c5974f46e3c72a5713f7fc4325429b2"
     url "https://apps.cyypher.com/idle-hue/download/macos-intel/#{version}"
   end
   name "idle-hue"
